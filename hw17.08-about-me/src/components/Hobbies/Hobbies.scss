@@ -1,0 +1,21 @@
+.hobbies {
+  padding: 60px 0;
+  background-color: #e3f09b;
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 30px;
+  }
+
+  &_wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+

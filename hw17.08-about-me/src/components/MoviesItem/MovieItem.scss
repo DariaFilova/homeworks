@@ -1,0 +1,24 @@
+.movieItem {
+  width: 300px;
+  &_img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &_info {
+    h3 {
+      padding-bottom: 10px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 15px;
+    }
+  }
+}
+

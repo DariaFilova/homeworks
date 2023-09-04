@@ -1,0 +1,23 @@
+form {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  input {
+    margin-left: 7px;
+    padding: 5px 20px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  button {
+    border: none;
+    padding: 5px 20px;
+    background-color: rgb(75, 159, 124);
+    color: whitesmoke;
+    font-weight: 600;
+  }
+}
+

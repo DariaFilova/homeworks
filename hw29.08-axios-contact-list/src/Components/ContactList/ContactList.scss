@@ -1,0 +1,17 @@
+.contact-list {
+  padding-top: 50px;
+}
+
+.contacts {
+  width: 60%;
+  margin: 0 auto;
+  list-style: none;
+  padding-top: 90px;
+  li {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+}
+

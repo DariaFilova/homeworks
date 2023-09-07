@@ -1,0 +1,19 @@
+.post {
+  width: 600px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  &_wrapper {
+    width: 70%;
+    border: 2px solid #949494;
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
+  &_comments {
+    padding-top: 30px;
+    width: 70%;
+  }
+}
+

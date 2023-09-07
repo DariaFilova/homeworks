@@ -1,0 +1,22 @@
+.active {
+  color: rgb(189, 114, 22);
+}
+
+.nav {
+  background-color: #6184d8;
+  padding: 20px 0;
+
+  &_links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-style: 18px;
+    font-weight: 600;
+  }
+}
+
